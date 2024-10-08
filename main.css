@@ -1,3 +1,21 @@
 input {
     width: 35px;
+background-color: rgba(72, 149, 52, 0.4)
 }
+
+tr:nth-child(even) {
+    background-color: rgba(15, 94, 5, 0.4);
+  }
+  
+  th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(72, 149, 52, 0.4);
+  }
+
+
+
+  tr:nth-child(odd) {
+    background-color:rgba(72, 149, 52, 0.4);
+  }
+  th:nth-child(odd),td:nth-child(odd) {
+    background-color: rgba(15, 94, 5, 0.4);
+  }
