@@ -13,7 +13,7 @@
         <div class="mb-3">
             <label for="new-list-name-input" class="form-label">New Scorecard</label>
             <input id="new-list-name-input" class="form-control" placeholder="Enter new Player name">
-            <button class="btn btn-primary mt-2" onclick="addList()">Add Scorecard</button>
+            <button class="btn btn-primary mt-2" onclick="addList()">Add Player</button>
         </div>
 
         <div class="form-group mb-3">
@@ -27,10 +27,24 @@
 
         <div id="options-container" class="mb-3"></div>
 
-        <div id="scorecard-container" class="mt-4">
+        <div id="scorecard-container" class="mt-4"> <!-- 'd-none' will hide the scorecard initially -->
             <div id="scorecard" class="table-responsive">
                 <table class="table table-bordered">
                     <thead>
+                        <tr>
+                            <th>Name Of course</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+        
                         <tr>
                             <th>Hole</th>
                             <th>1</th>
@@ -83,19 +97,7 @@
                             <th></th>
                             <th></th>
                         </tr>
-                        <tr>
-                            <th>Player Score</th>
-                            <th><input type="number"  id="playerscore"> </th>
-                            <th><input type="number" id="playerscore"> </th>
-                            <th><input type="number" id="playerscore"> </th>
-                            <th><input type="number" id="playerscore"> </th>
-                            <th><input type="number" id="playerscore"> </th>
-                            <th><input type="number" id="playerscore"> </th>
-                            <th><input type="number" id="playerscore"> </th>
-                            <th><input type="number" id="playerscore"> </th>
-                            <th><input type="number" id="playerscore"> </th>
-                            <th></th>
-                        </tr>
+                    
                     </thead>
                     <tbody>
                         <!-- Player scores will be populated here -->
@@ -103,7 +105,7 @@
                 </table>
             </div>
         </div>
-    </div>
+        
 
     <script src="main.js"></script>
 </body>

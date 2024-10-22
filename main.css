@@ -1,7 +1,16 @@
+body {
+  background-color: aliceblue;
+}
+
 input {
     width: 35px;
 background-color: rgba(72, 149, 52, 0.4)
 }
+
+.navbar {
+    background-color: var(--bs-primary-bg-subtle);
+  }
+  
 
 tr:nth-child(even) {
     background-color: rgba(15, 94, 5, 0.4);
